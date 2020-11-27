@@ -9,11 +9,11 @@
 
 $black:#1d1d21;
 $gray-10:#2e2e31;
-$gray-6:#7b7a7d;
-$gray-4:#a5a5a6;
-$gray-3:#bbbbbc;
-$gray-2:#d1d0d2;
-$gray-1:#e8e7e8;
+$gray-06:#7b7a7d;
+$gray-04:#a5a5a6;
+$gray-03:#bbbbbc;
+$gray-02:#d1d0d2;
+$gray-01:#e8e7e8;
 $white: white;
 /*=========================================================
                         DANGER
@@ -85,8 +85,8 @@ $accent-06: #080e0d;
 */
 
 $space-unit: 1rem;
-$space-xxs: 0.25 * $space-unit; // 4px
-$space-xs:0.5 * $space-unit; // 8px
+$space-xxsm: 0.25 * $space-unit; // 4px
+$space-xsm:0.5 * $space-unit; // 8px
 $space-sm:0.75 * $space-unit; //12px
 $space-md:1.25 * $space-unit; //20px
 $space-lg:2 * $space-unit; //32px
@@ -96,8 +96,8 @@ $space-xxl:5.25 * $space-unit; //84px
                         FIXED SPACING
 */
 
-$space-fixed-xxs: 0.25rem;
-$space-fixed-xs:0.5rem;
+$space-fixed-xxsm: 0.25rem;
+$space-fixed-xsm:0.5rem;
 $space-fixed-sm:0.75rem;
 $space-fixed-md:1.25rem;
 $space-fixed-lg:2rem;
@@ -108,9 +108,38 @@ $space-fixed-xxl:5.25rem;
 ==========================================================*/
 
 
+/*=========================================================
+                        FONT FAMILY
+*/
+
 $primary-font : 'Roboto', sans-serif;
 $secondary-font : 'Space Mono', monospace;
+/*=========================================================
+                        FONT SIZE
+*/
 
+$font-base: 1rem;
+$font-size-xxxsm: 0.5 * $font-base; //caption && overline
+$font-size-xxsm: 0.75 * $font-base; //body2
+$font-size-xsm: 1 * $font-base; //body
+$font-size-sm: 1.25 * $font-base; //title footer
+$font-size-md: 1.5 * $font-base;//title module
+$font-size-lg: 1.75 * $font-base;//title section
+$font-size-xlg: 2 * $font-base;//title secondary pages
+$font-size-xxlg: 2.25 * $font-base; //title on the homepage
+/*=========================================================
+                        FONT-WEIGHT
+*/
+
+$font-weight-light:300;
+$font-weight-normal:400;
+$font-weight-bold:700;
+/*=========================================================
+                        LINE-HEIGHT
+*/
+
+$line-height-base: 1.5;
+$line-height-title: 1.25;
 /*========================================================
                          SURFACE
 ==========================================================*/
@@ -120,5 +149,3 @@ $secondary-font : 'Space Mono', monospace;
 /*========================================================
                          SHADOW
 ==========================================================*/
-
-

@@ -1,7 +1,90 @@
 /*========================================================
                          HEADINGS
 ==========================================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/*=========================================================
+                        TITLE
+*/
+
+// Usage: for subtitle use 2 titles down
+.title {
+  color: $text-title-color;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0 0 $space-sm;
+  line-height: $line-height-title;
+}
+.sub-title{
+    color: $text-subtle-color;
+}
+.title--primary-00 {
+  font-size: $font-size-xxlg;
+}
+.title--primary-01 {
+  font-size: $font-size-xlg;
+}
+
+.title--secondary {
+  font-size: $font-size-lg;
+}
+.title--terziary {
+  font-size: $font-size-md;
+}
+
+.title--quatenary {
+  font-size: $font-size-sm;
+}
 
 /*========================================================
                          PARAGRAPHS
 ==========================================================*/
+
+
+p {
+  margin: 0;
+}
+/*=========================================================
+                        TEXT
+*/
+
+.text{
+    margin-bottom: $space-sm;
+    color: $text-color;
+}
+.sub-text{
+    color: $text-subtle-color;
+}
+.text--primary{
+    font-size: $font-size-xsm;
+}
+
+.text--secondary{
+    font-size: $font-size-xxsm
+}
+/*========================================================
+                         OTHERS
+==========================================================*/
+
+
+/*=========================================================
+                        CAPTION
+*/
+
+.caption{
+    font-size: $font-size-xxxsm;
+    font-style: italic;
+}
+/*=========================================================
+                        OVERLINE
+*/
+
+.overline{
+    font-size: $font-size-xxxsm;
+    text-transform: uppercase;
+}

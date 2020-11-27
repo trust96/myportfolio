@@ -1,0 +1,63 @@
+/*========================================================
+                        STYLE
+
+- Use margin classes only for responsive spacing, for fixed spacing
+use only the space-fixed variables
+
+- Always apply padding inline
+==========================================================*/
+
+
+
+/*========================================================
+                         MARGIN
+==========================================================*/
+
+
+/*=========================================================
+                        STACK
+*/
+
+.margin-bottom--sm {
+  margin-bottom: $space-xxsm;
+}
+.margin-bottom--md {
+  margin-bottom: $space-xsm;
+}
+.margin-bottom--lg {
+  margin-bottom: $space-sm;
+}
+.margin-bottom-xlg {
+  margin-bottom: $space-md;
+}
+/*=========================================================
+                        INLINE
+*/
+
+.margin-left--sm {
+  margin-left: $space-xxsm;
+}
+.margin-left--md {
+  margin-left: $space-xsm;
+}
+.margin-left--lg {
+  margin-left: $space-sm;
+}
+.margin-left--xlg {
+  margin-left: $space-sm;
+}
+
+
+/*========================================================
+                         PADDING
+==========================================================*/
+
+
+/*=========================================================
+                        VARIABLES
+*/
+
+$padding-sm:$space-xxsm; 
+$padding-md:$space-xsm; 
+$padding-lg:$space-sm; 
+$paddingxlg:$space-md; 

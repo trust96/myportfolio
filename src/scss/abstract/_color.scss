@@ -1,19 +1,75 @@
+/*========================================================
+                         GENERAL
+==========================================================*/
 
 
-
+/*=========================================================
+                        PRIMARY
+*/
 
 $primary-color-dark:$primary-05;
 $primary-color:$primary-03;
 $primary-color-light:$primary-01;
 $primary-color-bg:$primary-02;
+/*=========================================================
+                        SECONDARY
+*/
+
+/*=========================================================
+                        ACCENT
+*/
 
 $accent-color-dark:$accent-05;
 $accent-color:$accent-03;
 $accent-color-light:$accent-02;
 $accent-color-bg:$accent-04;
-
+/*========================================================
+                         FEEDBACK
+==========================================================*/
 
 
 $success-color: $success-03; //green
 $error-color: $danger-03; //red
 $warning-color: $warning-03; //yellow
+/*========================================================
+                         DEFAULT
+==========================================================*/
+
+
+$body-bg-color :$white;
+$module-bg-color:$accent-color-bg;
+/*=========================================================
+                        TYPOGRAPHY
+*/
+
+/*Text*/
+$text-color:$gray-10;
+$text-title-color:$black;
+$text-subtle-color:$gray-06;
+$text-inverse-color:$white;
+$text-accent:$primary-color;
+/*Link*/
+$link-color:$primary-color;
+$link-visited-color:$primary-color-dark;
+$selection-color: $accent-color-bg;
+/*Icon*/
+$icon-color-primary: $primary-color;
+$icon-color-secondary: inherit;
+
+/*=========================================================
+                        BUTTON
+*/
+
+$button-bg-color: $primary-color;
+$button-hover-color: $primary-color-light;
+$button-active-color: $primary-color-dark;
+$button-text-color: $text-inverse-color;
+/*=========================================================
+                        FORM
+*/
+
+$form-border-color:$border-color;
+$form-border-focus-color:$primary-color;
+$form-border-error-color:$warning-color;
+$form-bg-color:$accent-color-bg;
+$form-text-placeholder-color:$gray-04;

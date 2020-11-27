@@ -13,15 +13,18 @@
 @import 
 '../../node_modules/bootstrap/scss/functions',
 '../../node_modules/bootstrap/scss/variables',
-'../../node_modules/bootstrap/scss/mixins';
+'../../node_modules/bootstrap/scss/mixins',
+'../../node_modules/bootstrap/scss/grid',
+'../../node_modules/normalize.css/normalize.css';
 
 /*========================================================
                          ABSTRACT 
 ==========================================================*/
 @import 
 'abstract/color',
-'abstract/global',
+'abstract/spacing',
 'abstract/type',
+'abstract/global',
 'abstract/typography';
 
 /*========================================================
