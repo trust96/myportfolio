@@ -1,0 +1,63 @@
+.accordion{
+    display: flex;
+    background-color: $primary-color-dark;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 0 auto 0;
+    width: 90%;
+    border: 1px solid transparent;
+    text-align:left;
+    &:not(:last-child){
+    margin-bottom: 12px;
+    }
+
+    }
+    
+    
+    .accordion__icon{
+        background-color: $primary-color-dark;
+        font-size: 3rem;
+        color: $primary-color;
+    }
+
+    .accordion__content{
+        padding: 4px 8px;
+        flex: 1 1 auto;
+        overflow:hidden;
+        transform-origin: top;
+    }
+
+    .accordion::after{
+        content:'\f13a';
+        font-family: 'font awesome 5 free';
+        font-weight: 900;
+        color:$white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        transform: rotate(0deg);
+        transition: all linear 150ms;
+    }
+    .arrow--active.accordion::after{
+        transform: rotate(180deg);
+        transition: all linear 150ms;
+    }
+    .accordion__text{
+        color: $gray-02;
+    }
+    .accordion__title{
+    color:$text-inverse-color;
+    margin-bottom: .25rem;
+    }
+    .accordion__list{
+        margin:0;
+        padding:0;
+        list-style: none;
+        transform-origin: top;
+        max-height: 20px;
+    }
+    .accordion__list-item{
+        
+    }
+        

@@ -1,0 +1,34 @@
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.7)), url('../../src/assets/hero.svg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    min-height: 450px;
+    @include media-breakpoint-up(md){
+        background-image:none;
+    }
+}
+.hero__image{
+    background-image:url('../../src/assets/hero.svg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.hero__item{
+    margin-bottom: $space-md;
+    @include media-breakpoint-up(md){
+        padding-left: $space-sm;
+
+    }
+
+}
+.fa-boostrap{
+    border-radius:50%;
+}
+/*
+<i class="fab fa-bootstrap"></i>
+<i class="fab fa-html5"></i>
+<i class="fab fa-css3-alt"></i>
+<i class="fab fa-js-square"></i>
+
+*/

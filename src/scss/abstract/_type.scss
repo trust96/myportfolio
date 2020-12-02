@@ -15,17 +15,24 @@ h6 {
 
 // Usage: for subtitle use 2 titles down
 .title {
-  color: $text-title-color;
+  font-family: $secondary-font;
   font-weight: $font-weight-bold;
-  margin-bottom: 0 0 $space-sm;
-  line-height: $line-height-title;
+  line-height: $line-height-sm;
+  margin: 0 0 $space-sm;
+
 }
 .sub-title{
     color: $text-subtle-color;
+    font-family: $primary-font;
 }
 .title--primary-00 {
   font-size: $font-size-xxlg;
+  color:$text-inverse-color;
+  @include media-breakpoint-up(md){
+    color:$black;
 }
+}
+
 .title--primary-01 {
   font-size: $font-size-xlg;
 }
@@ -37,7 +44,7 @@ h6 {
   font-size: $font-size-md;
 }
 
-.title--quatenary {
+.title--quartenary {
   font-size: $font-size-sm;
 }
 
@@ -54,8 +61,11 @@ p {
 */
 
 .text{
-    margin-bottom: $space-sm;
     color: $text-color;
+    &:not(:last-child){
+      margin: 0 0 $space-sm;
+  
+    }
 }
 .sub-text{
     color: $text-subtle-color;
@@ -87,4 +97,7 @@ p {
 .overline{
     font-size: $font-size-xxxsm;
     text-transform: uppercase;
+    margin:0;
+    text-align:center;
+
 }

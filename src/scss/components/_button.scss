@@ -1,0 +1,91 @@
+
+/*========================================================
+                         BUTTON
+==========================================================*/
+
+
+.button{
+    padding: $padding-md $padding-lg;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    cursor:pointer;
+    font-weight: $font-weight-bold;
+    border-radius: $border-radius;
+    font-size: $font-size-xsm;
+    line-height:1;
+    text-transform: capitalize;
+    &:focus{
+        box-shadow: 0 0 3px 2px grey;
+        outline:none !important;
+    }
+}
+/*=========================================================
+                        PRIMARY
+*/
+
+.button--primary{
+    border: solid $primary-button-bg 1px;
+    background-color: $primary-button-bg;
+    color:$text-inverse-color;
+&:hover{
+    background-color: $primary-button-hover;
+    border: solid $primary-button-hover 1px;
+}
+&:active{
+    background-color: $primary-button-active;
+    border: solid $primary-button-hover 1px; 
+}
+&:focus{
+    box-shadow: 0 0 3px 2px $primary-color;
+}
+}
+/*=========================================================
+                        SECONDARY
+*/
+
+.button--secondary{
+    border: solid $primary-color 1px;
+    background-color: $secondary-button-bg;
+    color:$primary-color;
+&:hover{
+    background-color: $secondary-button-hover;
+}
+&:active{
+    background-color: $secondary-button-active;
+    border: solid $secondary-button-hover 1px; 
+}
+&:focus{
+    box-shadow: 0 0 3px 2px $primary-color;
+
+}
+}
+/*=========================================================
+                        ACCENT
+*/
+
+.button--accent{
+    border: solid $accent-button-bg 1px;
+    background-color: $accent-button-bg;
+    color:$text-inverse-color;
+&:hover{
+    background-color: $accent-button-hover;
+    border: solid $accent-button-hover 1px;
+}
+&:active{
+    background-color: $accent-button-active;
+    border: solid $accent-button-hover 1px; 
+}
+&:focus{
+    box-shadow: 0 0 3px 2px $accent-color;
+
+}
+}
+/*=========================================================
+                        UTILITIES
+*/
+
+.button--group{
+    
+}
+

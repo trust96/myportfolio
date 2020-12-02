@@ -1,0 +1,28 @@
+.skills{
+    background-color: $gray-02;
+    padding: $space-xl 0;
+    @include media-breakpoint-up(md){
+    }
+    
+}
+.skills__title{
+    margin-bottom: $space-lg;
+
+}
+.card{
+    background-color: $white;
+    padding: $space-md 0;
+    border-radius: 20px;
+    margin: 0 auto $space-lg;
+    max-width: 500px;
+    @include media-breakpoint-up(md){
+        max-width:600px;
+    }
+
+
+}
+.card__title{
+    color:$black;
+    margin-bottom: $space-lg;
+}
+

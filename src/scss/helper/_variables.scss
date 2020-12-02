@@ -137,9 +137,11 @@ $font-weight-bold:700;
 /*=========================================================
                         LINE-HEIGHT
 */
+$line-height-sm:1;
+$line-height-md: 1.25;
+$line-height-lg: 1.5;
 
-$line-height-base: 1.5;
-$line-height-title: 1.25;
+
 /*========================================================
                          SURFACE
 ==========================================================*/
@@ -147,5 +149,17 @@ $line-height-title: 1.25;
 
 
 /*========================================================
-                         SHADOW
+                         BORDER
 ==========================================================*/
+$border-radius : 5px;
+$border-line-sm: 1px;
+$border-line-md: 2px;
+$border-line-lg: 4px;
+
+/*========================================================
+                         BORDER
+==========================================================*/
+ $icon-size-sm:$font-size-xsm;
+$icon-size-md:$font-size-sm;
+ $icon-size-lg:$font-size-md;
+ $icon-size-xlg:$font-size-lg;

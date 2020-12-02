@@ -12,17 +12,17 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  line-height: $line-height-base;
+  line-height: $line-height-lg;
   background-color: $body-bg-color;
   color: $text-color;
   text-align: left;
   font-family: $primary-font;
   font-size: $font-base;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-light;
 }
 
 *::before,
-*::after {
+*::after ,*{
   box-sizing: border-box;
 }
 
@@ -37,6 +37,73 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+
+.icon{
+  line-height: $line-height-sm;
+}
+.icon__group{
+}
 /*========================================================
                          LINK
 ==========================================================*/
+.link{
+  color:$link-color;
+  text-decoration: solid $space-fixed-xxsm underline $link-color;
+  &:hover{
+    background-color: $selection-color;
+    color:$link-visited-color
+  }
+  &:active{
+    background-color: $selection-color;
+    text-decoration-color: $primary-color-dark;
+  }
+  &:visited{
+    color: $link-visited-color;
+    text-decoration: solid $space-fixed-xxsm underline $link-visited-color;
+  }
+}
+/*========================================================
+                         IMAGE
+==========================================================*/
+
+.img-rsp{
+  max-width: 100%;
+  height:auto;
+}
+/*========================================================
+                         OTHERS
+==========================================================*/
+
+hr{
+  width:30%;
+  @include  media-breakpoint-up(md){
+    display:none;
+}
+
+}
+
+
+
+// TEMPORARY
+
+footer{
+  padding-top: 100px;
+}
+.hero{
+  padding-top: 100px;
+
+}
+
+ .container{
+   width:95%;
+   margin: 0 auto;
+
+}
+
+.only-lg-screen{
+  display:none;
+  @include media-breakpoint-up(lg){
+    display:block;
+  }
+}
+

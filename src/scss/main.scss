@@ -13,9 +13,7 @@
 @import 
 '../../node_modules/bootstrap/scss/functions',
 '../../node_modules/bootstrap/scss/variables',
-'../../node_modules/bootstrap/scss/mixins',
-'../../node_modules/bootstrap/scss/grid',
-'../../node_modules/normalize.css/normalize.css';
+'../../node_modules/bootstrap/scss/mixins';
 
 /*========================================================
                          ABSTRACT 
@@ -41,7 +39,10 @@
 @import
 'modules/accordion',
 'modules/form',
-'modules/tabs';
+'modules/tabs',
+'modules/tags',
+'modules/cards',
+'modules/box';
 /*========================================================
                          LAYOUT
 ==========================================================*/
@@ -49,12 +50,19 @@
 'layout/grid',
 'layout/header',
 'layout/navigation',
-'layout/footer';
+'layout/footer',
+'layout/hero',
+'layout/about-me';
 
 
 /*========================================================
                          TEMPLATE 
 ==========================================================*/
 
+/*========================================================
+                         OTHERS
+==========================================================*/
 
 
+@import
+'utility'

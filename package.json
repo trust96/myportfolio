@@ -18,6 +18,7 @@
   "homepage": "https://github.com/trust96/myportfolio#readme",
   "devDependencies": {
     "@popperjs/core": "^2.5.4",
+    "@types/animejs": "^3.1.2",
     "animejs": "^3.2.1",
     "bootstrap": "^4.5.3",
     "eslint": "^7.14.0",

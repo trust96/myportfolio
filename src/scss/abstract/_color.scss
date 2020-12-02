@@ -9,7 +9,7 @@
 
 $primary-color-dark:$primary-05;
 $primary-color:$primary-03;
-$primary-color-light:$primary-01;
+$primary-color-light:$primary-02;
 $primary-color-bg:$primary-02;
 /*=========================================================
                         SECONDARY
@@ -51,7 +51,7 @@ $text-accent:$primary-color;
 /*Link*/
 $link-color:$primary-color;
 $link-visited-color:$primary-color-dark;
-$selection-color: $accent-color-bg;
+$selection-color: $accent-01;
 /*Icon*/
 $icon-color-primary: $primary-color;
 $icon-color-secondary: inherit;
@@ -60,10 +60,18 @@ $icon-color-secondary: inherit;
                         BUTTON
 */
 
-$button-bg-color: $primary-color;
-$button-hover-color: $primary-color-light;
-$button-active-color: $primary-color-dark;
-$button-text-color: $text-inverse-color;
+$accent-button-bg: $accent-color-bg;
+$accent-button-hover: $accent-color;
+$accent-button-active: $accent-color-dark;
+
+$secondary-button-bg: $text-inverse-color;
+$secondary-button-active: $text-subtle-color;
+$secondary-button-hover: $gray-02;
+
+$primary-button-bg: $primary-color;
+$primary-button-hover: $primary-color-light;
+$primary-button-active: $primary-color-dark;
+$primary-button-text: $text-inverse-color;
 /*=========================================================
                         FORM
 */
@@ -73,3 +81,14 @@ $form-border-focus-color:$primary-color;
 $form-border-error-color:$warning-color;
 $form-bg-color:$accent-color-bg;
 $form-text-placeholder-color:$gray-04;
+
+/*=========================================================
+                        BORDER
+*/
+
+$border-color:$text-subtle-color;
+
+
+.primary{
+    color:$primary;
+}
